@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+header {
+    background-color: #f0803c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #ffeedd;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffe1c2;
+}
+
+.section {
+    padding: 60px 30px;
+    text-align: center;
+    background-color: #fffaf6;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #f0803c;
+}
+
+.section-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #f0803c;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d96c2f;
+}
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+.shop-container,
+.event-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.shop-item,
+.event-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 230px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-item:hover,
+.event-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.shop-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.shop-item h3,
+.event-item h3 {
+    color: #f0803c;
+    margin-bottom: 12px;
+}
+
+address {
+    margin-top: 5px;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-link {
+    color: #f0803c;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #d96c2f;
+}
